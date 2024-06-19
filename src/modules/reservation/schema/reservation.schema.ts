@@ -7,9 +7,6 @@ export class Reservation extends Document {
   userId: string;
 
   @Prop({ required: true })
-  doctorId: string;
-
-  @Prop({ required: true })
   date: Date;
 
   @Prop()
